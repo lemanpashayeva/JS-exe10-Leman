@@ -3,7 +3,7 @@
  function calcTip(x){
     if ( x>50 && x<300 ){
         return x*15/100
-    } else if ( x>200 ){
+    } else if ( x>300 ){
         return x*20/100
     } else if ( x<50 ){
         return x
